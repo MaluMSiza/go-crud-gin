@@ -1,0 +1,31 @@
+.env
+
+# Go binaries
+/bin/
+/build/
+/*_test.go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go workspace
+/go-workspace/
+
+# Dependency directories
+/vendor/
+
+# Go module files
+/go.sum
+/go.mod
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Operating System files
+.DS_Store
+Thumbs.db
